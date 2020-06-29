@@ -1,8 +1,4 @@
-body {
-    box-sizing: border-box;
-   }
- 
-   P {
+    P {
      color: black;
      font-size: 15px;
      margin-top: -0.5em;
@@ -29,15 +25,10 @@ body {
      padding-bottom: 1em;
      margin-bottom: 1em;
    }
- 
-   .contain {
-     object-fit: contain;
-   }
- 
-   .title {
+     .title {
      font-size: 25px;
      background-color: black;
-   color: #ffc107;
+     color: #ffc107;
      text-align: center;
    }
    
@@ -69,13 +60,11 @@ body {
    .right-style {
      background-color: white;
      width: 70%;
-     height: 100%;
    }
  
    .left-style {
      background-color: #ffc107;
      width: 30%;
-     height: 100%;
    }
  
  h1 {
@@ -170,8 +159,8 @@ body {
      border-radius: 50%;
      box-sizing: content-box;
      color: black;
-   display: flex;
-   flex-direction: row;
+     display: flex;
+     flex-direction: row;
      font-size: 1.42857rem;
      height: 1.42857rem;
      padding: 10px;
@@ -179,31 +168,26 @@ body {
      -moz-transition: color 0.2s linear;
      -o-transition: color 0.2s linear;
      -webkit-transition: color 0.2s linear;
-   transition: color 0.2s linear;
-   margin-top: 2em;
-   margin-bottom: 1em;
-   margin-left: 2em;
-   margin-right: 1.5em;
- }
-     
- hover {
-     color: black;
- }
- 
- @media all and (max-width: 550px) {
- .flex-container {
-   flex-direction: column;
- }
- .left-style {
+     transition: color 0.2s linear;
+     margin-top: 2em;
+     margin-bottom: 1em;
+     margin-left: 2em;
+     margin-right: 1.5em;
+   }
+  @media all and (max-width: 550px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .left-style {
    width: 100%;
  }
  
- .right-style {
+  .right-style {
    width: 100%;
- }
+  }
  
- h1 {
+  h1 {
    font-size: 40px;
- }
+  }
  
- }
+  }
