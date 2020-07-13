@@ -160,7 +160,7 @@ ul li {
   font-size: 14px;
 }
 
-@media all and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   
   .left-style {
     width: 100%;
