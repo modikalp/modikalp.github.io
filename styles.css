@@ -161,14 +161,15 @@ ul li {
 }
 
 @media all and (max-width: 550px) {
-  .flex-container {
-    flex-direction: column;
-  }
+  
   .left-style {
     width: 100%;
   }
   .right-style {
     width: 100%;
   }
+  .hobby-wrapper{
+    flex-direction: column;
+  } 
   
 }
